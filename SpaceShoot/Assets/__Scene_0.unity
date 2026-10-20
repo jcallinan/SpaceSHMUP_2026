@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 2132934916}
   - component: {fileID: 2132934915}
   - component: {fileID: 2132934914}
+  - component: {fileID: 2132934917}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -522,3 +523,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132934912}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2132934917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132934912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21102e8cca35cdf4bade556d9b531e2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationsPerSecond: 0.1
+  levelShown: 0
