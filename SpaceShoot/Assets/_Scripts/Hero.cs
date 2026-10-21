@@ -14,6 +14,13 @@ public class Hero : MonoBehaviour
     [Range(0, 4)]
     public float shieldLevel = 1;
 
+    void Awake()
+    {
+        if ( S = null)
+        {
+            S = this;
+        }
+    }
 
 
     // Update is called once per frame
